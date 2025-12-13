@@ -22,8 +22,8 @@ app = FastAPI()
 
 #define the allowed origins
 origins = [
-    "http://localhost",
-    "http://localhost:8501", # Streamlit default port
+    "http://localhost:8501",  # Streamlit default port
+    "http://*.streamlit.app",  # Allow all Streamlit apps
     "http://localhost,",
     "http://127.0.0.1:8000",  # FastAPI default port
 ]
