@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://streamlit-fastapi-user-management-app.onrender.com/"
 
 st.title("Streamlit FastAPI User Management Demo")
 st.subheader("Manage users with FastAPI backend")
